@@ -28,6 +28,11 @@ namespace ThreadDouble
 
             WriteLine("Geçen süre: " + sp.Elapsed.Seconds);
             ReadKey();
+
+      //--Syncronize
+     // Increment();
+      //Decrement();
+      //ReadKey();
         }
 
         static void Increment()
